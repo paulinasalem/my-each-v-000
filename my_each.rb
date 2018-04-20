@@ -4,7 +4,7 @@ if block_given?
 
   while i<array do |i|
     puts i
-    yield 
+    yield
     i=i+1
   end
 end
