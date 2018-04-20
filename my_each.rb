@@ -5,7 +5,7 @@ if block_given?
   while i<array do |this_thing|
     this_thing
     yield
-    i=i+1
+    this_thing=this_thing+1
   end
 end
   array
